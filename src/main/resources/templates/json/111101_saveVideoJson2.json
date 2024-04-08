@@ -1,0 +1,32 @@
+{
+    "userId":111101,
+    "userName":"fredi303",
+    "fullName":"Fredi Hdz",
+    "email":"fredi303@brain.com",
+    "postDate":"06-15-2023",
+    "overview":"Disponible solo en ParaMount 2023",
+    "backdropImage":"C:\\Users\\Fredi Hernandez\\Documents\\multimedia\\images\\backdropProfile.png",
+    "post":[
+       {
+          "collectionId":310013
+       },
+       {
+          "filePath":"C:\\Users\\Fredi Hernandez\\Documents\\multimedia\\mp4\\MORTAL KOMBAT 11 RoboCop vs Terminator.mp4",
+          "share":311,
+          "comments":[
+             {
+                "avatar":"iconUser 1",
+                "comment":"comentario 1 sobre el Trailer RoboCop vs Terminator user 1"
+             },
+             {
+                "avatar":"iconUser 2",
+                "comment":"comentario 2 sobre el Trailer RoboCop vs Terminator user 2"
+             }
+          ],
+          "likes":335,
+          "image":false,
+          "video":false,
+          "textPlain":false
+       }
+    ]
+ }

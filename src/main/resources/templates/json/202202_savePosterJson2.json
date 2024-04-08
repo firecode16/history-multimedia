@@ -1,0 +1,80 @@
+{
+    "userId":202202,
+    "userName":"jose2023",
+    "fullName":"Jose Ronquillo",
+    "email":"jose.2023@brain.com",
+    "postDate":"06-26-2023",
+    "overview":"Disponible solo en Cines 2024",
+    "backdropImage":"C:\\Users\\Fredi Hernandez\\Documents\\AndroidProyect\\multimedia\\images\\backdropProfile.png",
+    "post":[
+       {
+          "collectionId":434288
+       },
+       {
+          "filePath":"C:\\Users\\Fredi Hernandez\\Documents\\AndroidProyect\\multimedia\\images\\terminator_1.jpg",
+          "share":201,
+          "comments":[
+             {
+                "avatar":"iconUser 1",
+                "comment":"comentario 1 sobre el Poster Terminator 1 user 1"
+             },
+             {
+                "avatar":"iconUser 2",
+                "comment":"comentario 2 sobre el Poster Terminator 1 user 2"
+             },
+             {
+                "avatar":"iconUser 3",
+                "comment":"comentario 3 sobre el Poster Terminator 1 user 3"
+             }
+          ],
+          "likes":176,
+          "image":false,
+          "video":false,
+          "textPlain":false
+       },
+       {
+          "filePath":"C:\\Users\\Fredi Hernandez\\Documents\\AndroidProyect\\multimedia\\images\\terminator_2.jpg",
+          "share":271,
+          "comments":[
+             {
+                "avatar":"iconUser 1",
+                "comment":"comentario 1 sobre el Poster Terminator 2 user 1"
+             },
+             {
+                "avatar":"iconUser 2",
+                "comment":"comentario 2 sobre el Poster Terminator 2 user 2"
+             },
+             {
+                "avatar":"iconUser 3",
+                "comment":"comentario 3 sobre el Poster Terminator 2 user 3"
+             }
+          ],
+          "likes":79,
+          "image":false,
+          "video":false,
+          "textPlain":false
+       },
+       {
+          "filePath":"C:\\Users\\Fredi Hernandez\\Documents\\AndroidProyect\\multimedia\\images\\terminator_3.jpg",
+          "share":301,
+          "comments":[
+             {
+                "avatar":"iconUser 1",
+                "comment":"comentario 1 sobre el Poster Terminator 3 user 1"
+             },
+             {
+                "avatar":"iconUser 2",
+                "comment":"comentario 2 sobre el Poster Terminator 3 user 2"
+             },
+             {
+                "avatar":"iconUser 3",
+                "comment":"comentario 3 sobre el Poster Terminator 3 user 3"
+             }
+          ],
+          "likes":188,
+          "image":false,
+          "video":false,
+          "textPlain":false
+       }
+    ]
+ }

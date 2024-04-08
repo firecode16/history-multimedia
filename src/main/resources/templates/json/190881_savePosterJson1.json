@@ -1,0 +1,32 @@
+{
+   "userId":190881,
+   "userName":"sarah1978",
+   "fullName":"Sarah Of Warren",
+   "email":"sarah@brain.com",
+   "postDate":"06-12-2023",
+   "overview":"Proximamente Matrix turbo.",
+   "backdropImage":"C:\\Users\\Fredi Hernandez\\Documents\\AndroidProyect\\multimedia\\images\\backdropProfile.png",
+   "post":[
+      {
+         "collectionId":100004
+      },
+      {
+         "filePath":"C:\\Users\\Fredi Hernandez\\Documents\\AndroidProyect\\multimedia\\images\\matrix.jpg",
+         "share":5,
+         "comments":[
+            {
+               "avatar":"iconUser 1",
+               "comment":"comentario 1 sobre matrix"
+            },
+            {
+               "avatar":"iconUser 2",
+               "comment":"comentario 2 sobre matrix"
+            }
+         ],
+         "likes":15,
+         "image":false,
+         "video":false,
+         "textPlain":false
+      }
+   ]
+}

@@ -1,0 +1,36 @@
+{
+   "userId":202202,
+   "userName":"jose2023",
+   "fullName":"Jose Ronquillo",
+   "email":"jose.2023@brain.com",
+   "postDate":"06-26-2023",
+   "overview":"Disponible solo en Cines y Paramount 2024",
+   "backdropImage":"C:\\Users\\Fredi Hernandez\\Documents\\AndroidProyect\\multimedia\\images\\backdropProfile.png",
+   "post":[
+      {
+         "collectionId":555188
+      },
+      {
+         "filePath":"C:\\Users\\Fredi Hernandez\\Documents\\AndroidProyect\\multimedia\\mp4\\Transformers_ Rise of the Beasts _2023.mp4",
+         "share":501,
+         "comments":[
+            {
+               "avatar":"iconUser 1",
+               "comment":"comentario 1 sobre La Pelicula Terminator 7 user 1"
+            },
+            {
+               "avatar":"iconUser 2",
+               "comment":"comentario 2 sobre La Pelicula Terminator 7 user 2"
+            },
+            {
+               "avatar":"iconUser 3",
+               "comment":"comentario 3 sobre La Pelicula Terminator 7 user 3"
+            }
+         ],
+         "likes":876,
+         "image":false,
+         "video":false,
+         "textPlain":false
+      }
+   ]
+}

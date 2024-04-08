@@ -1,0 +1,21 @@
+server:
+  address: 000.000.0.000
+  port: 8081
+  servlet:
+    context-path: /api
+
+spring:
+  serverHost: 000.000.0.000
+  serverPort: 27017
+  userName: master
+  passWord: master
+  authDB: admin
+  data:
+    mongodb:
+      database: brain_db_dev
+      uri: mongodb://${spring.userName}:${spring.passWord}@${spring.serverHost}:${spring.serverPort}/${spring.data.mongodb.database}?authSource=${spring.authDB}
+  servlet:
+      multipart:
+          enabled: true
+          max-file-size: 512MB
+          max-request-size: 512MB

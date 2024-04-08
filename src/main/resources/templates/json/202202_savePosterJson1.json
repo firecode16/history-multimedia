@@ -1,0 +1,36 @@
+{
+    "userId":202202,
+    "userName":"jose2023",
+    "fullName":"Jose Ronquillo",
+    "email":"jose.2023@brain.com",
+    "postDate":"06-19-2023",
+    "overview":"Disponible solo en Cines 2023",
+    "backdropImage":"C:\\Users\\Fredi Hernandez\\Documents\\AndroidProyect\\multimedia\\images\\backdropProfile.png",
+    "post":[
+       {
+          "collectionId":432177
+       },
+       {
+          "filePath":"C:\\Users\\Fredi Hernandez\\Documents\\AndroidProyect\\multimedia\\images\\iron_man_1.jpg",
+          "share":311,
+          "comments":[
+             {
+                "avatar":"iconUser 1",
+                "comment":"comentario 1 sobre el Poster Iron Man user 1"
+             },
+             {
+                "avatar":"iconUser 2",
+                "comment":"comentario 2 sobre el Poster Iron Man user 2"
+             },
+             {
+                "avatar":"iconUser 2",
+                "comment":"comentario 2 sobre el Poster Iron Man user 3"
+             }
+          ],
+          "likes":239,
+          "image":false,
+          "video":false,
+          "textPlain":false
+       }
+    ]
+ }

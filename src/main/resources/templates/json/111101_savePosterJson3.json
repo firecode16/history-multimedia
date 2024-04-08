@@ -1,0 +1,68 @@
+{
+    "userId":111101,
+    "userName":"robert540",
+    "fullName":"Roberto rios",
+    "email":"robert540@brain.com",
+    "postDate":"03-28-2024",
+    "overview":"Proximamente en Cines y XBox 2024",
+    "backdropImage":"C:\\Users\\Fredi\\Documents\\Multimedia\\images\\backdropProfile2.jpg",
+    "post":[
+       {
+          "collectionId":200002
+       },
+       {
+          "filePath":"C:\\Users\\Fredi\\Documents\\Multimedia\\images\\Transformer6.jpg",
+          "share":200,
+          "comments":[
+             {
+                "avatar":"iconUser 1",
+                "comment":"comentario 1 sobre el poster transformer6 user 1"
+             },
+             {
+                "avatar":"iconUser 2",
+                "comment":"comentario 2 sobre el poster transformer6 user 2"
+             }
+          ],
+          "likes":40,
+          "image":true,
+          "video":false,
+          "textPlain":false
+       },
+       {
+          "filePath":"C:\\Users\\Fredi\\Documents\\Multimedia\\mp4\\Unity 5 - The Blacksmith - GDC 2015.mp4",
+          "share":820,
+          "comments":[
+             {
+                "avatar":"iconUser 1",
+                "comment":"comentario 1 sobre Blacksmith 5 user 1"
+             },
+             {
+                "avatar":"iconUser 2",
+                "comment":"comentario 2 sobre Blacksmith 5 user 2"
+             }
+          ],
+          "likes":1034,
+          "image":false,
+          "video":true,
+          "textPlain":false
+       },
+       {
+          "filePath":"C:\\Users\\Fredi\\Documents\\Multimedia\\mp4\\Halo_Official Trailer.mp4",
+          "share":870,
+          "comments":[
+             {
+                "avatar":"iconUser 1",
+                "comment":"comentario 1 sobre Halo user 1"
+             },
+             {
+                "avatar":"iconUser 2",
+                "comment":"comentario 2 sobre Halo user 2"
+             }
+          ],
+          "likes":970,
+          "image":false,
+          "video":true,
+          "textPlain":false
+       }
+    ]
+ }
