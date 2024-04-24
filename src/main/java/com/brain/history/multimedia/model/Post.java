@@ -18,6 +18,7 @@ public class Post {
     private Long likes;
     private boolean image;
     private boolean video;
+    private boolean audio;
     private boolean textPlain;
     private String multimediaName;
     private String contentType;

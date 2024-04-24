@@ -46,9 +46,12 @@ public class HistoryMultimediaController {
     }
 
     @GetMapping(value = "/multimedia/{streamId}")
-    public void getMultimediaById(@PathVariable ObjectId streamId, HttpServletResponse response) throws IOException {
-        InputStream streamVideo = historyMultimediaService.getMultimediaById(streamId);
-        FileCopyUtils.copy(streamVideo, response.getOutputStream());
+    public void getMultimediaById(@PathVariable ObjectId streamId, HttpServletResponse servletResponse) throws IOException {
+        try (InputStream streamMedia = historyMultimediaService.getMultimediaById(streamId)) {
+            servletResponse.flushBuffer();
+            FileCopyUtils.copy(streamMedia, servletResponse.getOutputStream());
+            streamMedia.close();
+        }
     }
 
     @PostMapping("/poster/save")

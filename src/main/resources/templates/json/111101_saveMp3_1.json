@@ -1,0 +1,33 @@
+{
+    "userId":111101,
+    "userName":"robert540",
+    "fullName":"Roberto rios",
+    "email":"robert540@brain.com",
+    "postDate":"04-10-2024",
+    "overview":"Pista de Audio mp3",
+    "backdropImage":"C:\\Users\\Fredi\\Documents\\Multimedia\\images\\backdropProfile2.jpg",
+    "post":[
+       {
+          "collectionId":200103
+       },
+       {
+          "filePath":"C:\\Users\\Fredi\\Documents\\Multimedia\\mp3\\Nicky Jam, Farruko, Amenazzy - Baby (Video Oficial).mp3",
+          "share":989,
+          "comments":[
+             {
+                "avatar":"iconUser 1",
+                "comment":"comentario 1 rola mp3"
+             },
+             {
+                "avatar":"iconUser 2",
+                "comment":"comentario 2 rola mp3"
+             }
+          ],
+          "likes":990,
+          "image":false,
+          "video":false,
+          "audio":true,
+          "textPlain":false
+       }
+    ]
+ }

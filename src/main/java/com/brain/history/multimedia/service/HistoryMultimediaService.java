@@ -8,6 +8,7 @@ import com.brain.history.multimedia.model.Profiles;
 import com.brain.history.multimedia.model.ProfilesView;
 import com.brain.history.multimedia.repository.PostRepository;
 import static com.brain.history.multimedia.util.Util.MATCH_JPG;
+import static com.brain.history.multimedia.util.Util.MATCH_MP3;
 import static com.brain.history.multimedia.util.Util.MATCH_VIDEO;
 import com.mongodb.BasicDBObject;
 import com.mongodb.DBObject;
@@ -189,6 +190,12 @@ public class HistoryMultimediaService {
                     post.setVideo(true);
                     post.setTextPlain(false);
                     post.setContentType("video/mp4");
+                } else if (filePath.endsWith(MATCH_MP3)) {
+                    post.setImage(false);
+                    post.setVideo(false);
+                    post.setAudio(true);
+                    post.setTextPlain(false);
+                    post.setContentType("audio/mp3");
                 }
 
                 byte[] data = FileUtils.readFileToByteArray(file);
