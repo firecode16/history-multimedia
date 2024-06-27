@@ -13,5 +13,4 @@ public class HistoryMultimediaApplication {
     public static void main(String[] args) {
         SpringApplication.run(HistoryMultimediaApplication.class, args);
     }
-
 }
