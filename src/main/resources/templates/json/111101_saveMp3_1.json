@@ -1,18 +1,18 @@
 {
-    "userId":111101,
-    "userName":"robert540",
-    "fullName":"Roberto rios",
-    "email":"robert540@brain.com",
-    "postDate":"04-10-2024",
+    "userId":116303,
+    "userName":"felipe310",
+    "fullName":"Felipe Halvarado",
+    "email":"felipe310@brain.com",
+    "postDate":"10-03-2024",
     "overview":"Pista de Audio mp3",
     "backdropImage":"C:\\Users\\Fredi\\Documents\\Multimedia\\images\\backdropProfile2.jpg",
     "post":[
        {
-          "collectionId":200103
+          "collectionId":300304
        },
        {
-          "filePath":"C:\\Users\\Fredi\\Documents\\Multimedia\\mp3\\Nicky Jam, Farruko, Amenazzy - Baby (Video Oficial).mp3",
-          "share":989,
+          "filePath":"C:\\Users\\Fredi\\Documents\\Multimedia\\images\\robot_salvaje.jpg",
+          "share":450,
           "comments":[
              {
                 "avatar":"iconUser 1",
@@ -23,10 +23,10 @@
                 "comment":"comentario 2 rola mp3"
              }
           ],
-          "likes":990,
-          "image":false,
+          "likes":921,
+          "image":true,
           "video":false,
-          "audio":true,
+          "audio":false,
           "textPlain":false
        }
     ]

@@ -1,0 +1,32 @@
+{
+    "userId":444004,
+    "userName":"omar444",
+    "fullName":"Omar chaparro",
+    "email":"omar444@brain.com",
+    "postDate":"09-17-2024",
+    "overview":"Buscamos chico o chica con habilidades de manejo de redes sociales.",
+    "backdropImage":"C:\\Users\\Fredi\\Documents\\Multimedia\\images\\backdropProfile3.jpg",
+    "post":[
+       {
+          "collectionId":244511
+       },
+       {
+          "filePath":"C:\\Users\\Fredi\\Documents\\Multimedia\\images\\robot-salvaje-poster.jpg",
+          "share":559,
+          "comments":[
+             {
+                "avatar":"User 1",
+                "comment":"Mucho exito chicos"
+             },
+             {
+                "avatar":"User 2",
+                "comment":"Me gustaria unirme al equipo de marketing"
+             }
+          ],
+          "likes":631,
+          "image":true,
+          "video":false,
+          "textPlain":false
+       }
+    ]
+ }

@@ -1,0 +1,68 @@
+{
+    "userId":444004,
+    "userName":"omar444",
+    "fullName":"Omar chaparro",
+    "email":"omar444@brain.com",
+    "postDate":"09-17-2024",
+    "overview":"Somos un equipo de Delivery foot. Actualmente estamos a nivel Local. Buscamos una inversion de $500,000 para la expancion.",
+    "backdropImage":"C:\\Users\\Fredi\\Documents\\Multimedia\\images\\backdropProfile3.jpg",
+    "post":[
+       {
+          "collectionId":212340
+       },
+       {
+          "filePath":"C:\\Users\\Fredi\\Documents\\Multimedia\\mp4\\ROBOT SALVAJE - Tráiler Final (Universal Studios) HD.mp4",
+          "share":339,
+          "comments":[
+             {
+                "avatar":"User 1",
+                "comment":"Mucho exito chicos"
+             },
+             {
+                "avatar":"User 2",
+                "comment":"Me gustaria unirme al equipo de marketing"
+             }
+          ],
+          "likes":500,
+          "image":false,
+          "video":true,
+          "textPlain":false
+       },
+       {
+          "filePath":"C:\\Users\\Fredi\\Documents\\Multimedia\\images\\robot_salvaje.jpg",
+          "share":23,
+          "comments":[
+             {
+                "avatar":"User 4",
+                "comment":"presentacion muy buena"
+             },
+             {
+                "avatar":"User 4",
+                "comment":"Vamos team"
+             }
+          ],
+          "likes":64,
+          "image":true,
+          "video":false,
+          "textPlain":false
+       },
+       {
+          "filePath":"C:\\Users\\Fredi\\Documents\\Multimedia\\mp4\\University of Illinois created a monocycle robot.mp4",
+          "share":95,
+          "comments":[
+             {
+                "avatar":"User 1",
+                "comment":"en la recta final"
+             },
+             {
+                "avatar":"User 2",
+                "comment":"valen 1000 jojoj"
+             }
+          ],
+          "likes":920,
+          "image":false,
+          "video":true,
+          "textPlain":false
+       }
+    ]
+ }
