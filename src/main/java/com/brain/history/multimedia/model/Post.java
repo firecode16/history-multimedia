@@ -12,15 +12,14 @@ import lombok.Setter;
 @Getter
 @Setter
 public class Post {
-
-    private Long share;
+    private Long collectionId;
+    private Long fileId;
+    private String filePath;
     private List<Comments> comments = new ArrayList<>();
-    private Long likes;
-    private boolean image;
-    private boolean video;
-    private boolean audio;
-    private boolean textPlain;
     private String multimediaName;
-    private String contentType;
+    private String mimeType;
+    private String type;
+    private Long share;
+    private Long likes;
     private Long size;
 }

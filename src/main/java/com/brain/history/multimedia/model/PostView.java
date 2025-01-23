@@ -12,11 +12,10 @@ import lombok.Setter;
 @Getter
 @Setter
 public class PostView {
-
     private Long collectionId;
     private String postDate;
     private String overview;
-    private Long array;
+    private Integer array;
     private List<PostedContent> content = new ArrayList<>();
 
     public List<PostedContent> add(PostedContent postedContent) {

@@ -12,7 +12,6 @@ import lombok.Setter;
 @Getter
 @Setter
 public class PostedContent {
-
     private String _id;
     private Long collectionId;
     private String contentType;

@@ -14,10 +14,8 @@ import org.springframework.data.mongodb.core.mapping.Document;
  */
 @Getter
 @Setter
-
 @Document(collection = "backdrops")
 public class Backdrops {
-
     @Id
     @JsonIgnore
     private ObjectId _id;

@@ -14,7 +14,6 @@ import lombok.Setter;
 @Setter
 @EqualsAndHashCode
 public class ProfilesView {
-
     private Long userId;
     private boolean isAuth;
     private String userName;

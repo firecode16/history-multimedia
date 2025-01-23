@@ -10,7 +10,6 @@ import lombok.Setter;
 @Getter
 @Setter
 public class Comments {
-
     private String avatar;
     private String comment;
 }

@@ -4,20 +4,19 @@ package com.brain.history.multimedia.response;
  *
  * @author firecode16
  */
-public class HistoryMultimediaResponse {
-
+public class MultimediaResponse {
     private String result;
     private int page;
     private Object data;
     private int totalItems;
     private int size;
 
-    public HistoryMultimediaResponse(String result, Object data) {
+    public MultimediaResponse(String result, Object data) {
         this.result = result;
         this.data = data;
     }
 
-    public HistoryMultimediaResponse(String result, int page, Object data, int totalItems, int size) {
+    public MultimediaResponse(String result, int page, Object data, int totalItems, int size) {
         this.result = result;
         this.page = page;
         this.data = data;

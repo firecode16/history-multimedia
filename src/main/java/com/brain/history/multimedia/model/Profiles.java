@@ -13,21 +13,20 @@ import org.springframework.data.mongodb.core.mapping.Document;
  */
 @Getter
 @Setter
-
 @Document(collection = "profiles")
 public class Profiles {
-
     @Id
     @JsonIgnore
     private ObjectId _id;
     private Long userId;
     private Long collectionId;
-    private boolean isAuth;
+    private Long phone;
+    private boolean auth;
     private String userName;
     private String fullName;
     private String email;
     private String postDate;
     private String overview;
-    private Long array;
+    private Integer array;
     private int countContacts;
 }

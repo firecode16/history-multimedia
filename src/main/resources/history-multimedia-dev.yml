@@ -1,7 +1,13 @@
 server:
   port: 8081
+  tomcat:
+    max-connections: 200
+    max-threads: 200
+    connection-timeout: 30000
   servlet:
     context-path: /api
+    context-parameters:
+      socket-timeout: 30000
 
 spring:
   serverHost: 192.168.1.122
@@ -18,3 +24,6 @@ spring:
           enabled: true
           max-file-size: 512MB
           max-request-size: 512MB
+  mvc:
+    async:
+      request-timeout: 60000
