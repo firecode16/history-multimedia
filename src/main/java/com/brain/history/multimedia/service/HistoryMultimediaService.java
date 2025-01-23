@@ -46,11 +46,8 @@ public class HistoryMultimediaService {
     @Autowired
     private GridFsOperations gridFsOperations;
 
-    private GridFSFile gridFSFile;
     private GridFSFindIterable gridFSFindIterable;
     private Pageable pageable;
-    private InputStream inputStream;
-    private Query query;
     private ProfilesView profilesView;
     private PostView postView;
     private PostedContent postedContent;
@@ -63,7 +60,7 @@ public class HistoryMultimediaService {
         profilesView = new ProfilesView();
         postView = new PostView();
 
-        query = new Query(Criteria.where("userId").is(userId)).with(pageable);
+        Query query = Query.query(Criteria.where("userId").is(userId)).with(pageable);
         List<Profiles> listProfiles = mongoTemplate.find(query, Profiles.class, "profiles");
 
         Backdrops backdrop = mongoTemplate.findOne(query, Backdrops.class, "backdrops");
@@ -85,7 +82,7 @@ public class HistoryMultimediaService {
                 });
             });
 
-            query = new Query(Criteria.where("metadata.userId").is(userId)).with(pageable);
+            query = Query.query(Criteria.where("metadata.userId").is(userId)).with(pageable);
             gridFSFindIterable = gridFsTemplate.find(query);
 
             profilesView.getPost().forEach((var post) -> {
@@ -126,17 +123,15 @@ public class HistoryMultimediaService {
     }
 
     @Transactional(readOnly = true)
-    public InputStream getMultimediaById(ObjectId streamId) {
-        query = new Query(Criteria.where("_id").is(streamId));
+    public InputStream getMultimediaById(String fileId) {
+        InputStream inputStream = null;
         try {
-            gridFSFile = gridFsTemplate.findOne(query);
-        } catch (MongoGridFSException e) {
-            logger.log(Level.SEVERE, "File chunk error{0}: ", e.getLocalizedMessage());
-        }
-        try {
-            inputStream = gridFsOperations.getResource(gridFSFile).getInputStream();
+            GridFSFile findFile = gridFsTemplate.findOne(Query.query(Criteria.where("_id").is(fileId.trim())));
+            inputStream = gridFsOperations.getResource(findFile).getInputStream();
         } catch (IOException | IllegalStateException ex) {
             logger.log(Level.SEVERE, ex.getMessage());
+        } catch (MongoGridFSException e) {
+            logger.log(Level.SEVERE, "File chunk error{0}: ", e.getLocalizedMessage());
         }
         return inputStream;
     }

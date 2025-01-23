@@ -10,6 +10,8 @@ import java.io.File;
 import java.io.IOException;
 import java.io.InputStream;
 import java.util.List;
+import java.util.logging.Level;
+import java.util.logging.Logger;
 import org.apache.commons.io.FileUtils;
 import org.bson.types.Binary;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -38,6 +40,8 @@ public class PostsService {
     private int result = 0;
     private final String backdropImage = "C:\\Users\\Fredi\\Documents\\Multimedia\\images\\backdropProfile.png";
 
+    private static final Logger logger = Logger.getLogger(PostsService.class.getName());
+    
     @Transactional
     public int save(Profiles profile, Post[] posts, List<MultipartFile> listFile) throws IOException {
         int count = 0;
@@ -85,6 +89,7 @@ public class PostsService {
         }
 
         result = 1;
+        logger.log(Level.INFO, "success save {0}: ", result);
         return result;
     }
 

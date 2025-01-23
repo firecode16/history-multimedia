@@ -43,10 +43,10 @@ public class HistoryMultimediaController {
         return data;
     }
 
-    @GetMapping(value = "/multimedia/{streamId}")
-    public void getMultimediaById(@PathVariable ObjectId streamId, HttpServletResponse servletResponse) {
+    @GetMapping(value = "/multimedia/{fileId}")
+    public void getMultimediaById(@PathVariable String fileId, HttpServletResponse servletResponse) {
         try (ServletOutputStream out = servletResponse.getOutputStream()) {
-            InputStream streamMedia = historyMultimediaService.getMultimediaById(streamId);
+            InputStream streamMedia = historyMultimediaService.getMultimediaById(fileId);
             out.write(streamMedia.readAllBytes());
         } catch (IOException ex) {
             if (ex.getMessage().contains("Connection reset by peer")) {
