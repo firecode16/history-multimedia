@@ -38,7 +38,7 @@ public class PostsService {
     private InputStream inputStream;
     private DBObject postMetaData;
     private int result = 0;
-    private final String backdropImage = "C:\\Users\\Fredi\\Documents\\Multimedia\\images\\backdropProfile.png";
+    private final String backdropImage = "";
 
     private static final Logger logger = Logger.getLogger(PostsService.class.getName());
     
